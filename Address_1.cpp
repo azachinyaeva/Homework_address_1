@@ -30,7 +30,7 @@ public:
 
 void rec(string* arr, int size, ofstream& out) {
     out << size << endl;
-    for (int i = 0; i < size; i++) {
+    for (int i = size-1; i >= 0; i--) {
         out << arr[i] << " ";
         out << endl;
     }
